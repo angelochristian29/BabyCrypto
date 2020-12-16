@@ -14,7 +14,7 @@ public class WalletBTCXRP {
     static double bitcoinInput = 0;
     static double currencyBTC = 0;
     static double currencyXRP = 0;
-    static double currencyUSD = 20000;
+    static double currencyUSD = 25000;
     static double boughtHist = 0;
     static double soldHist = 0;
     static String currency1Ticker = " BTC";
