@@ -31,7 +31,7 @@ public class BabyCrypto {
                 "\n" + "For History type: load ledger" + "\n" + 
                 "\n" + "To stop program type: quit" + 
                 "\n" + "You have " + WalletBTCXRP.currencyUSD + WalletBTCXRP.currency2Ticker + " to spend on Bitcoin" + 
-                "\n" + "", "Bitcoin Menu", JOptionPane.PLAIN_MESSAGE);
+                "\n" + "", "BabyCrypto Menu", JOptionPane.PLAIN_MESSAGE);
         
         //System.out.print();
         bitCommand = JOptionPane.showInputDialog("Select Option Here:");
