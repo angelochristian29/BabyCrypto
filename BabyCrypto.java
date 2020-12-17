@@ -22,9 +22,15 @@ public class BabyCrypto {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        JOptionPane.showMessageDialog(null, "Select an option by inputing strings on the keyboard: " + "\n" + "For Value of BitCoin type: price " + 
-                "\n" + "To Buy Bitcoins type: buy <num> <coin>" + "\n" + "To Sell Bitcoins type: sell <num> <coin>" + "\n" + "To Print your Wallet type: wallet" + 
-                "\n" + "For History type: history" + "\n" + "To stop program type: quit" + "\n" + "You have 20,000 "+ WalletBTCXRP.currency2Ticker + " to spend on Bitcoin" + 
+        JOptionPane.showMessageDialog(null, "Select an option by inputing strings on the keyboard: " + 
+                "\n" + "For Value of BitCoin type: price " + 
+                "\n" + "To Buy Bitcoins type: buy <num> <coin>" + 
+                "\n" + "To Sell Bitcoins type: sell <num> <coin>" + 
+                "\n" + "To Print your Wallet type: wallet" + 
+                "\n" + "To save history type: save ledger" +
+                "\n" + "For History type: load ledger" + "\n" + 
+                "\n" + "To stop program type: quit" + 
+                "\n" + "You have " + WalletBTCXRP.currencyUSD + WalletBTCXRP.currency2Ticker + " to spend on Bitcoin" + 
                 "\n" + "", "Bitcoin Menu", JOptionPane.PLAIN_MESSAGE);
         
         //System.out.print();
