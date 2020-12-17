@@ -13,7 +13,7 @@ Create an effective recreation of popular cryptocurrency apps like Coinbase.
 ## Final Product:
 After downloading files, user can read menu in order to use the app.
 
-![](images/BabyCrypto_Menu.png)
+![](images/BabyCrypto_Menu2.png)
 
 Users can see their transaction, current wallet, and  history with simple commands.
 
